@@ -6,16 +6,33 @@
 
 
 @media (max-width:680px){
+    main{
+        background-color: #f4edea;
+    }
+    .header{
+        background-color: #541554;
+        display: flex;
+        justify-content: space-around;
+        gap: 300px;
+    }
     .main-first{
         background: #541554;
         color: white;
         height: 400px;
         text-align: center;
-        justify-content: center ;
+        justify-content: center;
+    }
+    .burger{
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
     }
     #google{
         background-color: #4285f4;
         align-items: center;
+    }
+    .thinking{
+        padding-top: 30px;
     }
     .connect{
        margin-bottom: 60px; 
@@ -24,7 +41,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 2%;
-        margin-left: 30px;
+        margin-left: 15px;
         height: 40px;
         width: 90%;
         align-items: center;
@@ -38,7 +55,7 @@
     .image1{
         width: 30px;
         position: absolute;
-        left: 6%;
+        left: 3%;
         top: 9%;
     }
     .foto2{
@@ -51,8 +68,8 @@
 
     .logo{
         display: block;
-        max-width: 200px;
-        max-height: 90px;
+        max-width: 180px;
+        max-height: 80px;
         width: auto;
         height: auto;
         margin: 15px;
@@ -61,22 +78,26 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around   ;
+        justify-content: space-around;
     }
     .line{
         width: 30%;
         margin-left: 35%;
     }
-    .main-third{
-         border: black;
+    .mainThird{
          font-size: 12px;
          font-weight: lighter;
          font-style: italic;
-         border: 1px solid black;
-         width: 60%;
-         height: 300px;
-         margin-bottom: 100px;
+         border: 3px solid purple;
+         border-radius: 10%;
+         width: 38%;
+         height: 290px;
+         margin-bottom: 50px;
          }
+    .imageVentas{
+        border-radius: 28px;
+        margin-left: 2px;
+        }
     .team{
         text-align: center;
     }
@@ -106,39 +127,125 @@
         border-radius: 18%;
         }
     .info{
-        font-size: 10px;
+        text-decoration: none;
+        
+        }
+    .mainForth{
+        margin-top: 40px;
+        font-size: 15px;
+        line-height: 20px;
         text-align: left;
+        background-color:;
         margin-right: 50px;
+        margin-bottom: 60px;
+    }
+    .meetTeam{
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .meet{
+        text-decoration: none;
+        line-height: 25px;
+        margin-right: 25px;
+    }
+    .select{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height: 40px;
     }
     .how{
         font-size: 10px;
     }
-    .main-fifth{
-        margin-top: 60px;
+    .main-sixth{
+        margin-top: 90px;
         margin-bottom: 20px;
+        margin-left: 90px;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: right;
+        margin-bottom: 80px;
     }
     .percentages{
-        margin-top: 20%;
         margin: auto;
-        margin-top: 30px;
-        font-size: 7px;
-        width: 100px;
+        margin-top: 60px;
+        font-size: 10px;
+        width: 200px;
+        margin-bottom: 60px;
     }
     .percentage{
         color: #541554;
         text-align: center;
+        font-size: 30px;
     }
     .ending{
-        font-size: 10px;
-
+        font-size: 8px;
     }
 
     .list{
         list-style: none;
     }
+    .imagenJunta{
+        margin-left: ;
+    }
+    .choose{
+        font-size: 9px;
+    }
     .ending{
         display: flex;
+        margin-top: 30px;
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 10px;
+        line-height: 15px;
     }
+    .trust{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .main-fifth{
+        background-color: white;
+        padding-top: 70px;
+        text-align: center;
+        margin-top: 46px;
+        font-size: 15px;
+    }
+    .buttonSecond{
+        display: flex;
+        flex-direction: column;
+        font-size: 9px;
+        margin-top: 2%;
+        margin-left: 60px;
+        height: 35px;
+        width: 80%;
+        align-items: center;
+        position: relative;
+        line-height: 33px;
+    }
+    .mainSeventh{
+    background-color: #541554;
+    margin-top: 30px;
+    padding-top: 10px;
+    height: 220px;
+    color: white;
+    clip-path: ellipse(115% 100% at center top);
+}
+    .findOut{
+        padding-top: 30px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .buttonThird{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 20px;
+    font-size: 9px;
+    height: 34px;
+    width: 90%;
+    align-items: center;
+    position: relative;
+    line-height: 33px;
+}
 }
