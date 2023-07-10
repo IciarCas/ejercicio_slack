@@ -170,14 +170,14 @@
     .percentages{
         margin: auto;
         margin-top: 60px;
-        font-size: 10px;
+        font-size: 14px;
         width: 200px;
         margin-bottom: 60px;
     }
     .percentage{
         color: #541554;
         text-align: center;
-        font-size: 30px;
+        font-size: 37px;
     }
     .ending{
         font-size: 8px;
@@ -201,7 +201,7 @@
         line-height: 15px;
     }
     .trust{
-        font-size: 30px;
+        font-size: 27px;
         margin-bottom: 20px;
     }
     .main-fifth{
@@ -209,8 +209,10 @@
         padding-top: 70px;
         text-align: center;
         margin-top: 46px;
+        margin-bottom: 10px;
         font-size: 15px;
     }
+    
     .buttonSecond{
         display: flex;
         flex-direction: column;
@@ -223,7 +225,42 @@
         position: relative;
         line-height: 33px;
     }
-    .mainSeventh{
+    .video{
+        margin-right: 90px;
+        border-top-right-radius: 47%;
+        border-bottom-right-radius: 47%;
+    }
+    .mainNinth{
+        background-color: white;
+        padding: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .mainNinth:hover{
+        transform: scale(1.02);
+    }
+    .ninthTitle{
+        margin-bottom: 30px;
+    }
+    .functions{
+        color: grey;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 85px;
+    }
+    .look{
+        padding: 7%;
+        margin-left: 62px;
+        margin-right: 55px;
+        text-align: left;
+    }
+    .examine{
+        color: #1264a3;
+        text-align: left;
+        margin-left: 22%;
+        font-size: 12px;
+    }
+    .mainTenth{
     background-color: #541554;
     margin-top: 30px;
     padding-top: 10px;
@@ -247,5 +284,37 @@
     align-items: center;
     position: relative;
     line-height: 33px;
-}
+    }
+    .mainEigth{
+        margin-top: 50px;
+        text-align: left;
+    }
+    .technologic{
+        font-style: italic;
+        font-size: 19px;
+    }
+    .matt{
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .director{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .clients{
+        text-decoration: none;
+    }
+    .average{
+        margin-top: 30px;
+        text-align: center;
+        color: grey;
+        font-size: 11px;
+    }
+    .logoSlack{
+        width: 70px;
+        height: 60px;
+    }
+    .firstFooter{
+        
+    }
 }
